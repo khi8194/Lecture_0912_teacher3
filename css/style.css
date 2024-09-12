@@ -25,6 +25,7 @@ main {
   position: relative;
 }
 main .btnToggle {
+  cursor: pointer;
   width: 30px;
   height: 24px;
   position: absolute;
