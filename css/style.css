@@ -39,10 +39,17 @@ main .btnToggle > div {
   width: 100%;
   height: 2px;
   background-color: #fff;
+  border-radius: 1px;
   transition: all 0.5s;
 }
 main .btnToggle.on > div.middle {
   width: 0%;
+}
+main .btnToggle.on > div.top {
+  transform: translateY(11px) rotate(225deg);
+}
+main .btnToggle.on > div.bottom {
+  transform: translateY(-11px) rotate(-225deg);
 }
 
 /*# sourceMappingURL=style.css.map */
